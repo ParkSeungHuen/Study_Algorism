@@ -1,12 +1,11 @@
+package BackJoon;
+
 import java.io.*;
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.StringTokenizer;
 
-public class Main {
-    public static void main(String[] args) throws IOException {
+public class _11005 {
+    public static void _11005(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in)); // 버퍼리드 선언
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
