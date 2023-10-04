@@ -29,8 +29,8 @@ public class _11068 {
                     num2 = num2 / j;
                 }
 
-                for (int k = 0; k < arrayList.size() / 2; k++) {
-                    if(arrayList.get(k) != arrayList.get(arrayList.size() - 1 - k)) {
+                for (int k = 0; k < arrayList.size() / 2; k++) { // 대칭되는 값이 같은 지 다른 지 판단하기
+                    if(arrayList.get(k) != arrayList.get(arrayList.size() - 1 - k)) { // 다르면 회문이 아니므로 break
                         break;
                     }
 
@@ -39,7 +39,7 @@ public class _11068 {
                     }
                 }
 
-                arrayList.clear();
+                arrayList.clear(); // 배열 clear
             }
 
             if (success == true) { // 판정
