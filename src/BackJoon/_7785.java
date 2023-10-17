@@ -17,7 +17,7 @@ public class _7785 {
         }
     }
 
-    public static void main(String[] args) throws IOException {
+    public static void _7785(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in)); // 버퍼리드 선언
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 

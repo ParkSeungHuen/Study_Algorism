@@ -10,17 +10,5 @@ public class Main {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in)); // 버퍼리드 선언
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
-        StringTokenizer tokenizer = new StringTokenizer(br.readLine());
-        int N = Integer.parseInt(tokenizer.nextToken());
-        int C = Integer.parseInt(tokenizer.nextToken());
-
-        StringTokenizer messageToken = new StringTokenizer(br.readLine());
-        for (int i = 0; i < N; i++) {
-            int num = Integer.parseInt(messageToken.nextToken());
-            if (num <= C) {
-
-            }
-        }
-        bw.flush();
     }
 }

@@ -31,7 +31,7 @@ public class _1302 {
         BookSale[] bookSales = new BookSale[N]; // 결과 담기
         Arrays.fill(bookSales, new BookSale("", 0));
         int count = 1;
-        for (int i = 0; i < N - 1; i++) {
+        for (int i = 0; i < N - 1; i++) { // 정렬 후 같은 것일 경우 count++, 다르면 배열에 저장
             if (!names[i].equals(names[i + 1])) {
                 bookSales[i] = new BookSale(names[i], count);
                 count = 1;
